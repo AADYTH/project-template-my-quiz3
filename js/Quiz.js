@@ -51,8 +51,17 @@ class Quiz {
         debugger;
         var correctAns = "2";
 //check the condition whether player answer and correct ans are equal
+if(correctAns===allContestants[plr].answer){
+
+fill("green")
+}
+
+else{
+  fill("red")
+}
 //if equal fill with green 
 //if not equal fill with red
+
         
 
         display_Answers+=30;
